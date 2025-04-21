@@ -1,0 +1,84 @@
+/* Fondo espacial personalizado */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/12/star-wars-scaled.jpg?resize=1200%2C675&quality=70&strip=all&ssl=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+}
+
+/* Navbar estilizado */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #00d1ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #00d1ff;
+}
+
+/* Estilización de tarjetas */
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Botones estilizados */
+.card button {
+  background-color: #00d1ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0079a3;
+}
+
+/* Tipografía personalizada */
+h1, h5 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
