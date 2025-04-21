@@ -20,7 +20,7 @@ const AppRoutes = () => {
         {/* Ruta dedicada a la lista de favoritos */}
         <Route path="/favorites" element={<FavoritesList />} />
 
-        {/* Ruta genérica para capturar páginas no encontradas */}
+        {}
         <Route path="*" element={<p style={{ textAlign: "center", color: "#ff0000" }}>
           Página no encontrada.
         </p>} />

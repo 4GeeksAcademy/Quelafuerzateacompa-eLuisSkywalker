@@ -82,3 +82,21 @@ h1, h5 {
 p {
   font-family: 'Roboto', sans-serif;
 }
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #ffe81f;
+  letter-spacing: 3px;
+  font-family: 'Orbitron', sans-serif;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
